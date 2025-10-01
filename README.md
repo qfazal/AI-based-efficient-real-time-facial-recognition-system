@@ -4,9 +4,9 @@ This project implements a real-time facial recognition system using **Facenet-Py
 
 
 
-\- ✅ Literature review and identification of research gap  
+\- ✅ Literature review and identification of limitations and research gap  
 
-\- ✅ Implementation of baseline model(script: `src/face\_recognition.py`)  
+\- ✅ Implementation of baseline model(script: `src/face_recognition.py`)  
 
 \- ✅ Multiple faces in stored videos detected correctly using mtcnn 
 
@@ -24,7 +24,7 @@ Tasks currently in progress:
 
 \- ⏳ Development and implementation of statistical adaptive thresholds for improved similarity matching and recognition
 
-\- ⏳ Custom dataset creation and expansion
+\- ⏳ Custom Webcam feed-based dataset creation and expansion
 
 \- ⏳ Accuracy benchmarking  
 
