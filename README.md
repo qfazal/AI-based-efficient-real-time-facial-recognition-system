@@ -1,24 +1,23 @@
 # AI-based Efficient Real-Time Facial Recognition System
 
-This project implements a real-time facial recognition system using **Facenet-PyTorch**, designed for efficiency and accuracy. The project commenced in February 2025 and is ongoing. The following tasks have been completed so far:
-
-
+This project implements a real-time facial recognition system using **Facenet-PyTorch**, designed for efficiency, reliability, security, and accuracy. The project commenced in February 2025 and is ongoing. The following tasks have been completed so far:
 
 \- ✅ Literature review and identification of limitations and research gap  
 
-\- ✅ Implementation of baseline model(script: `src/face_recognition.py`)  
+\- ✅ Implementation of baseline model(script: `src/face_recognition.py`)
+
+\- ✅ Inception Resnet (V1) model pretrained on VGGFace2, downloaded and loaded correctly using an alternative approach for security, enhanced speed and efficiency       by eliminating network latency, and increased reliability as it works without a stable internet connection. 
 
 \- ✅ Multiple faces in stored videos detected correctly using mtcnn 
 
 \- ✅ Data of detected faces stored in a database file using pickle
 
-\- ✅ Fast and reliable face recognition of known faces in terms of speed
-
+\- ✅ Fast and reliable face recognition of known single faces in terms of speed
 
 
 \- ⚠️ Current accuracy has limitations; recognition performance decreases under certain conditions (e.g., low light, occlusion).
 
-
+\- ⚠️ Current implementation performs recognition of a single known face.
 
 Tasks currently in progress:  
 
@@ -27,7 +26,6 @@ Tasks currently in progress:
 \- ⏳ Custom Webcam feed-based dataset creation and expansion
 
 \- ⏳ Accuracy benchmarking  
-
 
 
 Planned next steps:  
