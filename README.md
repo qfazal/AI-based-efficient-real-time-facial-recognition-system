@@ -6,7 +6,7 @@ This project implements a real-time facial recognition system using **Facenet-Py
 
 \- ✅ Implementation of baseline model(script: `src/face_recognition.py`)
 
-\- ✅ Inception Resnet (V1) model pretrained on VGGFace2, downloaded and loaded correctly using an alternative approach for security, enhanced speed and efficiency       by eliminating network latency, and increased reliability as it works without a stable internet connection. 
+\- ✅ Inception Resnet (V1) model pretrained on VGGFace2, downloaded and loaded offline correctly using an alternative approach, thereby enhancing security, speed and efficiency by eliminating network latency. Reliability is also increased as the facerecognition system works without a stable internet connection. 
 
 \- ✅ Multiple faces in stored videos detected correctly using mtcnn 
 
@@ -24,6 +24,8 @@ Tasks currently in progress:
 \- ⏳ Development and implementation of statistical adaptive thresholds for improved similarity matching and recognition
 
 \- ⏳ Custom Webcam feed-based dataset creation and expansion
+
+\- ⏳ Designing a GUI for the recognition system 
 
 \- ⏳ Accuracy benchmarking  
 
