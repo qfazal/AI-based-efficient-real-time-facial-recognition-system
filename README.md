@@ -38,3 +38,13 @@ Planned next steps:
 
 \- 🔜 Documentation and publishing of results
 
+
+How to run:
+
+Step 1: Run the download_model.py file on Google Colab for downloading 'inception_resnet_v1_vggface2.pth'
+
+Step 2: Download the 'inception_resnet_v1_vggface2.pth' file and copy it in the directory where the face_recognition.py file is placed
+
+Step 3: Run face_recognition.py
+
+
